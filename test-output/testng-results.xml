@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="17210" started-at="2021-05-12T09:42:46Z" finished-at="2021-05-12T09:43:04Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="17210" started-at="2021-05-12T09:42:46Z" finished-at="2021-05-12T09:43:04Z">
+      <class name="guru_demo.LoginTestGuru">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:guru_demo.LoginTestGuru@78fa769e]" name="beforeClass" is-config="true" duration-ms="4734" started-at="2021-05-12T09:42:46Z" finished-at="2021-05-12T09:42:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:guru_demo.LoginTestGuru@78fa769e]" name="beforeMethod" is-config="true" duration-ms="931" started-at="2021-05-12T09:42:51Z" finished-at="2021-05-12T09:42:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TC_01_LoginWithEmptyEmailAndPassword()[pri:0, instance:guru_demo.LoginTestGuru@78fa769e]" name="TC_01_LoginWithEmptyEmailAndPassword" duration-ms="537" started-at="2021-05-12T09:42:52Z" finished-at="2021-05-12T09:42:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_LoginWithEmptyEmailAndPassword -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:guru_demo.LoginTestGuru@78fa769e]" name="beforeMethod" is-config="true" duration-ms="980" started-at="2021-05-12T09:42:53Z" finished-at="2021-05-12T09:42:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TC_02_LoginWithInvalidEmail()[pri:0, instance:guru_demo.LoginTestGuru@78fa769e]" name="TC_02_LoginWithInvalidEmail" duration-ms="451" started-at="2021-05-12T09:42:54Z" finished-at="2021-05-12T09:42:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_02_LoginWithInvalidEmail -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:guru_demo.LoginTestGuru@78fa769e]" name="beforeMethod" is-config="true" duration-ms="1077" started-at="2021-05-12T09:42:54Z" finished-at="2021-05-12T09:42:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TC_03_LoginWithIncorrectEmail()[pri:0, instance:guru_demo.LoginTestGuru@78fa769e]" name="TC_03_LoginWithIncorrectEmail" duration-ms="1412" started-at="2021-05-12T09:42:55Z" description="Email not exist in application" finished-at="2021-05-12T09:42:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_03_LoginWithIncorrectEmail -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:guru_demo.LoginTestGuru@78fa769e]" name="beforeMethod" is-config="true" duration-ms="913" started-at="2021-05-12T09:42:57Z" finished-at="2021-05-12T09:42:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TC_04_LoginWithInvalidPassword()[pri:0, instance:guru_demo.LoginTestGuru@78fa769e]" name="TC_04_LoginWithInvalidPassword" duration-ms="417" started-at="2021-05-12T09:42:57Z" description="Password less than 6 characters" finished-at="2021-05-12T09:42:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_04_LoginWithInvalidPassword -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:guru_demo.LoginTestGuru@78fa769e]" name="beforeMethod" is-config="true" duration-ms="800" started-at="2021-05-12T09:42:58Z" finished-at="2021-05-12T09:42:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TC_05_LoginWithIncorrectPassword()[pri:0, instance:guru_demo.LoginTestGuru@78fa769e]" name="TC_05_LoginWithIncorrectPassword" duration-ms="1420" started-at="2021-05-12T09:42:59Z" finished-at="2021-05-12T09:43:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_05_LoginWithIncorrectPassword -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:guru_demo.LoginTestGuru@78fa769e]" name="beforeMethod" is-config="true" duration-ms="983" started-at="2021-05-12T09:43:00Z" finished-at="2021-05-12T09:43:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TC_06_LoginWithValidEmailAndPassword()[pri:0, instance:guru_demo.LoginTestGuru@78fa769e]" name="TC_06_LoginWithValidEmailAndPassword" duration-ms="1797" started-at="2021-05-12T09:43:01Z" finished-at="2021-05-12T09:43:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_06_LoginWithValidEmailAndPassword -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:guru_demo.LoginTestGuru@78fa769e]" name="afterClass" is-config="true" duration-ms="720" started-at="2021-05-12T09:43:03Z" finished-at="2021-05-12T09:43:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- guru_demo.LoginTestGuru -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Access to Bank Project" verbose="1" parallel="tests">
+	<test name="Run with Chrome browser" parallel="methods">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.myTest.LoginTest" />
+		</classes>
+	</test>
+
+<!-- 	<test name="Run with Firefox browser"  parallel="methods"> -->
+<!-- 		<parameter name="browser" value="firefox" /> -->
+<!-- 		<classes> -->
+<!-- 			<class name="com.myTest.LoginTest" /> -->
+<!-- 		</classes> -->
+<!-- 	</test> -->
+</suite>

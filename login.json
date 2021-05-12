@@ -1,0 +1,6 @@
+{
+"phone": "{{phone}}",
+"password":"{{password}}",
+"deviceId":"{{deviceId}}",
+"firebaseToken":"{{firebaseToken}}"
+}
